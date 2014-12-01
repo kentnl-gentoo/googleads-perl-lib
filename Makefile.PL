@@ -20,6 +20,7 @@ WriteMakefile
                    'XML::XPath' => 0,
                    'Test::MockObject::Extends' => 0,
                    'Module::Build' => 0,
+                   'Test::Deep' => 0,
                    'SOAP::WSDL' => '2.000010',
                    'Test::MockObject' => 0,
                    'Getopt::Long' => 0,
