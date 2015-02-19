@@ -112,6 +112,7 @@ examples/v201409/campaign_management/set_bid_modifier.pl
 examples/v201409/campaign_management/validate_text_ad.pl
 examples/v201409/error_handling/handle_partial_failures.pl
 examples/v201409/error_handling/handle_server_faults.pl
+examples/v201409/migration/upgrade_ad_url.pl
 examples/v201409/misc/get_all_images_and_video.pl
 examples/v201409/misc/upload_image.pl
 examples/v201409/misc/use_hashes.pl

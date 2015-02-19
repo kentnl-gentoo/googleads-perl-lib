@@ -22,25 +22,25 @@ name: Google-Ads-AdWords-Client
 provides:
   Google::Ads::AdWords::Client:
     file: lib/Google/Ads/AdWords/Client.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::Constants:
     file: lib/Google/Ads/AdWords/Constants.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::Deserializer:
     file: lib/Google/Ads/AdWords/Deserializer.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::FaultDetail:
     file: lib/Google/Ads/AdWords/FaultDetail.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::Logging:
     file: lib/Google/Ads/AdWords/Logging.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::OAuth2ApplicationsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ApplicationsHandler.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::OAuth2ServiceAccountsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ServiceAccountsHandler.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::Reports::DateRange:
     file: lib/Google/Ads/AdWords/Reports/DateRange.pm
     version: 0
@@ -70,7 +70,7 @@ provides:
     version: 0
   Google::Ads::AdWords::Reports::ReportingConfiguration:
     file: lib/Google/Ads/AdWords/Reports/ReportingConfiguration.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::Reports::Selector:
     file: lib/Google/Ads/AdWords/Reports/Selector.pm
     version: 0
@@ -82,7 +82,7 @@ provides:
     version: 0
   Google::Ads::AdWords::Serializer:
     file: lib/Google/Ads/AdWords/Serializer.pm
-    version: v3.2.0
+    version: v3.2.1
   Google::Ads::AdWords::v201406::AccessReason:
     file: lib/Google/Ads/AdWords/v201406/AccessReason.pm
     version: 0
@@ -6956,4 +6956,4 @@ requires:
   perl: v5.8.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
-version: v3.2.0
+version: v3.2.1
