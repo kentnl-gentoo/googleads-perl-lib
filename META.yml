@@ -7,6 +7,7 @@ build_requires:
   Config::Properties: 0
   Module::Build: 0
   Test::Deep: 0
+  Test::Exception: 0
   Test::MockObject: 0
   Test::MockObject::Extends: 0
   Test::More: 0
@@ -22,25 +23,25 @@ name: Google-Ads-AdWords-Client
 provides:
   Google::Ads::AdWords::Client:
     file: lib/Google/Ads/AdWords/Client.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Constants:
     file: lib/Google/Ads/AdWords/Constants.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Deserializer:
     file: lib/Google/Ads/AdWords/Deserializer.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::FaultDetail:
     file: lib/Google/Ads/AdWords/FaultDetail.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Logging:
     file: lib/Google/Ads/AdWords/Logging.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::OAuth2ApplicationsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ApplicationsHandler.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::OAuth2ServiceAccountsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ServiceAccountsHandler.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Reports::DateRange:
     file: lib/Google/Ads/AdWords/Reports/DateRange.pm
     version: 0
@@ -70,7 +71,7 @@ provides:
     version: 0
   Google::Ads::AdWords::Reports::ReportingConfiguration:
     file: lib/Google/Ads/AdWords/Reports/ReportingConfiguration.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Reports::Selector:
     file: lib/Google/Ads/AdWords/Reports/Selector.pm
     version: 0
@@ -82,7 +83,7 @@ provides:
     version: 0
   Google::Ads::AdWords::Serializer:
     file: lib/Google/Ads/AdWords/Serializer.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::Utilities::BatchJobHandler:
     file: lib/Google/Ads/AdWords/Utilities/BatchJobHandler.pm
     version: v3.1.2
@@ -94,7 +95,7 @@ provides:
     version: v3.1.2
   Google::Ads::AdWords::Utilities::PageProcessor:
     file: lib/Google/Ads/AdWords/Utilities/PageProcessor.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::AdWords::v201506::AccessReason:
     file: lib/Google/Ads/AdWords/v201506/AccessReason.pm
     version: 0
@@ -11129,6 +11130,3789 @@ provides:
   Google::Ads::AdWords::v201601::YouTubeVideo:
     file: lib/Google/Ads/AdWords/v201601/YouTubeVideo.pm
     version: 0
+  Google::Ads::AdWords::v201603::AccessReason:
+    file: lib/Google/Ads/AdWords/v201603/AccessReason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabel:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelPage:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::AccountLabelServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/AccountLabelServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::get:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountLabelService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AccountLabelService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AccountUserListStatus:
+    file: lib/Google/Ads/AdWords/v201603/AccountUserListStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Ad:
+    file: lib/Google/Ads/AdWords/v201603/Ad.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Ad::Type:
+    file: lib/Google/Ads/AdWords/v201603/Ad/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCallMetricsConversion:
+    file: lib/Google/Ads/AdWords/v201603/AdCallMetricsConversion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerError:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeed:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedAttribute:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedAttribute::Type:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedAttribute/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedError:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedPage:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::AdCustomizerFeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/AdCustomizerFeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdCustomizerFeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdCustomizerFeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdError:
+    file: lib/Google/Ads/AdWords/v201603/AdError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroup:
+    file: lib/Google/Ads/AdWords/v201603/AdGroup.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroup::Status:
+    file: lib/Google/Ads/AdWords/v201603/AdGroup/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAd:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAd::ApprovalStatus:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAd/ApprovalStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAd::Status:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAd/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdCountLimitExceeded:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdCountLimitExceeded.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdError:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdExperimentData:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdExperimentData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::AdGroupAdServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/AdGroupAdServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::mutateLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/mutateLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::mutateLabelResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/mutateLabelResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::upgradeUrl:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/upgradeUrl.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupAdService::upgradeUrlResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupAdService/upgradeUrlResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidLandscape::Type:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidLandscape/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidLandscapePage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidLandscapePage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifier:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::AdGroupBidModifierServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/AdGroupBidModifierServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupBidModifierService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupBidModifierService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupChangeData:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupChangeData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterion:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionError:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionExperimentBidMultiplier:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionExperimentBidMultiplier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionLimitExceeded:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionLimitExceeded.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionLimitExceeded::CriteriaLimitType:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionLimitExceeded/CriteriaLimitType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::AdGroupCriterionServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/AdGroupCriterionServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::mutateLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/mutateLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::mutateLabelResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/mutateLabelResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupCriterionService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupCriterionService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupEstimate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupEstimate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupEstimateRequest:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupEstimateRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExperimentBidMultipliers:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExperimentBidMultipliers.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExperimentData:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExperimentData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSetting:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::AdGroupExtensionSettingServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/AdGroupExtensionSettingServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupExtensionSettingService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupExtensionSettingService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeed:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeed::Status:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeed/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedError:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::AdGroupFeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/AdGroupFeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupFeedService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupFeedService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupPage:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::AdGroupServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/AdGroupServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::mutateLabel:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/mutateLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::mutateLabelResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/mutateLabelResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupServiceError:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupServiceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdGroupServiceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdGroupServiceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParam:
+    file: lib/Google/Ads/AdWords/v201603/AdParam.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamError:
+    file: lib/Google/Ads/AdWords/v201603/AdParamError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdParamError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamOperation:
+    file: lib/Google/Ads/AdWords/v201603/AdParamOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamPage:
+    file: lib/Google/Ads/AdWords/v201603/AdParamPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamPolicyError:
+    file: lib/Google/Ads/AdWords/v201603/AdParamPolicyError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::AdParamServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/AdParamServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdParamService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdParamService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdSchedule:
+    file: lib/Google/Ads/AdWords/v201603/AdSchedule.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdServingOptimizationStatus:
+    file: lib/Google/Ads/AdWords/v201603/AdServingOptimizationStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdUnionId:
+    file: lib/Google/Ads/AdWords/v201603/AdUnionId.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdUrlUpgrade:
+    file: lib/Google/Ads/AdWords/v201603/AdUrlUpgrade.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdWordsConversionTracker:
+    file: lib/Google/Ads/AdWords/v201603/AdWordsConversionTracker.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdWordsConversionTracker::TextFormat:
+    file: lib/Google/Ads/AdWords/v201603/AdWordsConversionTracker/TextFormat.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdWordsConversionTracker::TrackingCodeType:
+    file: lib/Google/Ads/AdWords/v201603/AdWordsConversionTracker/TrackingCodeType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Address:
+    file: lib/Google/Ads/AdWords/v201603/Address.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdvertisingChannelSubType:
+    file: lib/Google/Ads/AdWords/v201603/AdvertisingChannelSubType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdvertisingChannelType:
+    file: lib/Google/Ads/AdWords/v201603/AdvertisingChannelType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::AdwordsUserListServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/AdwordsUserListServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::get:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::mutateMembers:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/mutateMembers.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::mutateMembersResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/mutateMembersResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::query:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdwordsUserListService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/AdwordsUserListService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdxError:
+    file: lib/Google/Ads/AdWords/v201603/AdxError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AdxError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AdxError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AgeRange:
+    file: lib/Google/Ads/AdWords/v201603/AgeRange.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AgeRange::AgeRangeType:
+    file: lib/Google/Ads/AdWords/v201603/AgeRange/AgeRangeType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ApiError:
+    file: lib/Google/Ads/AdWords/v201603/ApiError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ApiException:
+    file: lib/Google/Ads/AdWords/v201603/ApiException.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppConversion:
+    file: lib/Google/Ads/AdWords/v201603/AppConversion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppConversion::AppConversionType:
+    file: lib/Google/Ads/AdWords/v201603/AppConversion/AppConversionType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppConversion::AppPlatform:
+    file: lib/Google/Ads/AdWords/v201603/AppConversion/AppPlatform.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/AppFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppFeedItem::AppStore:
+    file: lib/Google/Ads/AdWords/v201603/AppFeedItem/AppStore.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppPaymentModel:
+    file: lib/Google/Ads/AdWords/v201603/AppPaymentModel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppPaymentModel::AppPaymentModelType:
+    file: lib/Google/Ads/AdWords/v201603/AppPaymentModel/AppPaymentModelType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppPostbackUrlError:
+    file: lib/Google/Ads/AdWords/v201603/AppPostbackUrlError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppPostbackUrlError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AppPostbackUrlError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppUrl:
+    file: lib/Google/Ads/AdWords/v201603/AppUrl.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppUrl::OsType:
+    file: lib/Google/Ads/AdWords/v201603/AppUrl/OsType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AppUrlList:
+    file: lib/Google/Ads/AdWords/v201603/AppUrlList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ApplicationException:
+    file: lib/Google/Ads/AdWords/v201603/ApplicationException.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ApprovalStatus:
+    file: lib/Google/Ads/AdWords/v201603/ApprovalStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Attribute:
+    file: lib/Google/Ads/AdWords/v201603/Attribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AttributeFieldMapping:
+    file: lib/Google/Ads/AdWords/v201603/AttributeFieldMapping.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AttributeType:
+    file: lib/Google/Ads/AdWords/v201603/AttributeType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Audio:
+    file: lib/Google/Ads/AdWords/v201603/Audio.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AudioError:
+    file: lib/Google/Ads/AdWords/v201603/AudioError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AudioError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AudioError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AuthenticationError:
+    file: lib/Google/Ads/AdWords/v201603/AuthenticationError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AuthenticationError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AuthenticationError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AuthorizationError:
+    file: lib/Google/Ads/AdWords/v201603/AuthorizationError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::AuthorizationError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/AuthorizationError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BasicUserList:
+    file: lib/Google/Ads/AdWords/v201603/BasicUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJob:
+    file: lib/Google/Ads/AdWords/v201603/BatchJob.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobError:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobOperation:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobOpsService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobOpsService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobOpsService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobOpsService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobPage:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobProcessingError:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobProcessingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobProcessingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobProcessingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::BatchJobServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/BatchJobServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::get:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::query:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BatchJobStatus:
+    file: lib/Google/Ads/AdWords/v201603/BatchJobStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Bid:
+    file: lib/Google/Ads/AdWords/v201603/Bid.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/BidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BidLandscape::LandscapePoint:
+    file: lib/Google/Ads/AdWords/v201603/BidLandscape/LandscapePoint.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BidModifierSource:
+    file: lib/Google/Ads/AdWords/v201603/BidModifierSource.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BidMultiplier:
+    file: lib/Google/Ads/AdWords/v201603/BidMultiplier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BidSource:
+    file: lib/Google/Ads/AdWords/v201603/BidSource.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddableAdGroupCriterion:
+    file: lib/Google/Ads/AdWords/v201603/BiddableAdGroupCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddableAdGroupCriterionExperimentData:
+    file: lib/Google/Ads/AdWords/v201603/BiddableAdGroupCriterionExperimentData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingErrors:
+    file: lib/Google/Ads/AdWords/v201603/BiddingErrors.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingErrors::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BiddingErrors/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/BiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyConfiguration:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyConfiguration.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyError:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyOperation:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyPage:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::BiddingStrategyServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/BiddingStrategyServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::get:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::query:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategySource:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategySource.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BiddingStrategyType:
+    file: lib/Google/Ads/AdWords/v201603/BiddingStrategyType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Bids:
+    file: lib/Google/Ads/AdWords/v201603/Bids.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BillingAccount:
+    file: lib/Google/Ads/AdWords/v201603/BillingAccount.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BooleanAttribute:
+    file: lib/Google/Ads/AdWords/v201603/BooleanAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Budget:
+    file: lib/Google/Ads/AdWords/v201603/Budget.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Budget::BudgetDeliveryMethod:
+    file: lib/Google/Ads/AdWords/v201603/Budget/BudgetDeliveryMethod.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Budget::BudgetStatus:
+    file: lib/Google/Ads/AdWords/v201603/Budget/BudgetStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetError:
+    file: lib/Google/Ads/AdWords/v201603/BudgetError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BudgetError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOperation:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOptimizerBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOptimizerBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrder:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrder.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderError:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderOperation:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderPage:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderRequest:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderRequest::Status:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderRequest/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::BudgetOrderServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/BudgetOrderServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::get:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::getBillingAccounts:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/getBillingAccounts.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::getBillingAccountsResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/getBillingAccountsResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetOrderService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetOrderService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetPage:
+    file: lib/Google/Ads/AdWords/v201603/BudgetPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/BudgetReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::BudgetServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/BudgetServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::get:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::query:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::BudgetService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/BudgetService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CallConversionType:
+    file: lib/Google/Ads/AdWords/v201603/CallConversionType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CallFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/CallFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CallOnlyAd:
+    file: lib/Google/Ads/AdWords/v201603/CallOnlyAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CalloutFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/CalloutFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Campaign:
+    file: lib/Google/Ads/AdWords/v201603/Campaign.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignChangeData:
+    file: lib/Google/Ads/AdWords/v201603/CampaignChangeData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterion:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionError:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionPage:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::CampaignCriterionServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/CampaignCriterionServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::get:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::query:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignCriterionService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignCriterionService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignError:
+    file: lib/Google/Ads/AdWords/v201603/CampaignError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CampaignError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignEstimate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignEstimate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignEstimateRequest:
+    file: lib/Google/Ads/AdWords/v201603/CampaignEstimateRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSetting:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingPage:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::CampaignExtensionSettingServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/CampaignExtensionSettingServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::get:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::query:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignExtensionSettingService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignExtensionSettingService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeed:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeed::Status:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeed/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedError:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedPage:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::CampaignFeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/CampaignFeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::get:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::query:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignFeedService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignFeedService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignLabel:
+    file: lib/Google/Ads/AdWords/v201603/CampaignLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignPage:
+    file: lib/Google/Ads/AdWords/v201603/CampaignPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignPreferenceError:
+    file: lib/Google/Ads/AdWords/v201603/CampaignPreferenceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignPreferenceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CampaignPreferenceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::CampaignServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/CampaignServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::get:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::mutateLabel:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/mutateLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::mutateLabelResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/mutateLabelResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::query:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSet:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSet.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSet::Status:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSet/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetError:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetOperation:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetPage:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::CampaignSharedSetServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/CampaignSharedSetServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::get:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::query:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignSharedSetService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CampaignSharedSetService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignStatus:
+    file: lib/Google/Ads/AdWords/v201603/CampaignStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CampaignTrialType:
+    file: lib/Google/Ads/AdWords/v201603/CampaignTrialType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Carrier:
+    file: lib/Google/Ads/AdWords/v201603/Carrier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CategoryProductsAndServicesSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/CategoryProductsAndServicesSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ChangeStatus:
+    file: lib/Google/Ads/AdWords/v201603/ChangeStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ClientTermsError:
+    file: lib/Google/Ads/AdWords/v201603/ClientTermsError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ClientTermsError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ClientTermsError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CollectionSizeError:
+    file: lib/Google/Ads/AdWords/v201603/CollectionSizeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CollectionSizeError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CollectionSizeError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ComparableValue:
+    file: lib/Google/Ads/AdWords/v201603/ComparableValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CompetitionSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/CompetitionSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CompetitionSearchParameter::Level:
+    file: lib/Google/Ads/AdWords/v201603/CompetitionSearchParameter/Level.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantData:
+    file: lib/Google/Ads/AdWords/v201603/ConstantData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::ConstantDataServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/ConstantDataServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::UserInterestTaxonomyType:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/UserInterestTaxonomyType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getAgeRangeCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getAgeRangeCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getAgeRangeCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getAgeRangeCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getCarrierCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getCarrierCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getCarrierCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getCarrierCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getGenderCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getGenderCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getGenderCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getGenderCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getLanguageCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getLanguageCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getLanguageCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getLanguageCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getMobileAppCategoryCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getMobileAppCategoryCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getMobileAppCategoryCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getMobileAppCategoryCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getMobileDeviceCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getMobileDeviceCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getMobileDeviceCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getMobileDeviceCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getOperatingSystemVersionCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getOperatingSystemVersionCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getOperatingSystemVersionCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getOperatingSystemVersionCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getProductBiddingCategoryData:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getProductBiddingCategoryData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getProductBiddingCategoryDataResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getProductBiddingCategoryDataResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getUserInterestCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getUserInterestCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getUserInterestCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getUserInterestCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getVerticalCriterion:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getVerticalCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantDataService::getVerticalCriterionResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConstantDataService/getVerticalCriterionResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantOperand:
+    file: lib/Google/Ads/AdWords/v201603/ConstantOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantOperand::ConstantType:
+    file: lib/Google/Ads/AdWords/v201603/ConstantOperand/ConstantType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConstantOperand::Unit:
+    file: lib/Google/Ads/AdWords/v201603/ConstantOperand/Unit.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ContentLabel:
+    file: lib/Google/Ads/AdWords/v201603/ContentLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ContentLabelType:
+    file: lib/Google/Ads/AdWords/v201603/ContentLabelType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionDeduplicationMode:
+    file: lib/Google/Ads/AdWords/v201603/ConversionDeduplicationMode.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionOptimizerBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/ConversionOptimizerBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionOptimizerBiddingScheme::BidType:
+    file: lib/Google/Ads/AdWords/v201603/ConversionOptimizerBiddingScheme/BidType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionOptimizerBiddingScheme::PricingMode:
+    file: lib/Google/Ads/AdWords/v201603/ConversionOptimizerBiddingScheme/PricingMode.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionOptimizerEligibility:
+    file: lib/Google/Ads/AdWords/v201603/ConversionOptimizerEligibility.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionOptimizerEligibility::RejectionReason:
+    file: lib/Google/Ads/AdWords/v201603/ConversionOptimizerEligibility/RejectionReason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTracker:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTracker.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTracker::Category:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTracker/Category.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTracker::Status:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTracker/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerOperation:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerPage:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::ConversionTrackerServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/ConversionTrackerServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::get:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::query:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackerService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackerService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackingError:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ConversionTrackingSettings:
+    file: lib/Google/Ads/AdWords/v201603/ConversionTrackingSettings.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CpaBid:
+    file: lib/Google/Ads/AdWords/v201603/CpaBid.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CpcBid:
+    file: lib/Google/Ads/AdWords/v201603/CpcBid.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CpmBid:
+    file: lib/Google/Ads/AdWords/v201603/CpmBid.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Criterion:
+    file: lib/Google/Ads/AdWords/v201603/Criterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Criterion::Type:
+    file: lib/Google/Ads/AdWords/v201603/Criterion/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionAttribute:
+    file: lib/Google/Ads/AdWords/v201603/CriterionAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/CriterionBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionBidLandscapePage:
+    file: lib/Google/Ads/AdWords/v201603/CriterionBidLandscapePage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionError:
+    file: lib/Google/Ads/AdWords/v201603/CriterionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CriterionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionParameter:
+    file: lib/Google/Ads/AdWords/v201603/CriterionParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionPolicyError:
+    file: lib/Google/Ads/AdWords/v201603/CriterionPolicyError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionTypeGroup:
+    file: lib/Google/Ads/AdWords/v201603/CriterionTypeGroup.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionUse:
+    file: lib/Google/Ads/AdWords/v201603/CriterionUse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionUserInterest:
+    file: lib/Google/Ads/AdWords/v201603/CriterionUserInterest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionUserList:
+    file: lib/Google/Ads/AdWords/v201603/CriterionUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CriterionUserList::MembershipStatus:
+    file: lib/Google/Ads/AdWords/v201603/CriterionUserList/MembershipStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CrmBasedUserList:
+    file: lib/Google/Ads/AdWords/v201603/CrmBasedUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CurrencyCodeError:
+    file: lib/Google/Ads/AdWords/v201603/CurrencyCodeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CurrencyCodeError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CurrencyCodeError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomParameter:
+    file: lib/Google/Ads/AdWords/v201603/CustomParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomParameters:
+    file: lib/Google/Ads/AdWords/v201603/CustomParameters.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Customer:
+    file: lib/Google/Ads/AdWords/v201603/Customer.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerChangeData:
+    file: lib/Google/Ads/AdWords/v201603/CustomerChangeData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerError:
+    file: lib/Google/Ads/AdWords/v201603/CustomerError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CustomerError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSetting:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingOperation:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingPage:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::CustomerExtensionSettingServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/CustomerExtensionSettingServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::get:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::query:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerExtensionSettingService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerExtensionSettingService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeed:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeed::Status:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeed/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedError:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedPage:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::CustomerFeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/CustomerFeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::get:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::query:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerFeedService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerFeedService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerOrderLineError:
+    file: lib/Google/Ads/AdWords/v201603/CustomerOrderLineError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerOrderLineError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CustomerOrderLineError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::CustomerServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/CustomerServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::get:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::getCustomers:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/getCustomers.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::getCustomersResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/getCustomersResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncError:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncSelector:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncSelector.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::CustomerSyncServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/CustomerSyncServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::get:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::CustomerSyncService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/CustomerSyncService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataEntry:
+    file: lib/Google/Ads/AdWords/v201603/DataEntry.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataError:
+    file: lib/Google/Ads/AdWords/v201603/DataError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DataError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/DataService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::DataServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/DataService/DataServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/DataService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/DataService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getAdGroupBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getAdGroupBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getAdGroupBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getAdGroupBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getCampaignCriterionBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getCampaignCriterionBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getCampaignCriterionBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getCampaignCriterionBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getCriterionBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getCriterionBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getCriterionBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getCriterionBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getDomainCategory:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getDomainCategory.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::getDomainCategoryResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/getDomainCategoryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryAdGroupBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryAdGroupBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryAdGroupBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryAdGroupBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryCampaignCriterionBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryCampaignCriterionBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryCampaignCriterionBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryCampaignCriterionBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryCriterionBidLandscape:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryCriterionBidLandscape.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryCriterionBidLandscapeResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryCriterionBidLandscapeResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryDomainCategory:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryDomainCategory.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DataService::queryDomainCategoryResponse:
+    file: lib/Google/Ads/AdWords/v201603/DataService/queryDomainCategoryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DatabaseError:
+    file: lib/Google/Ads/AdWords/v201603/DatabaseError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DatabaseError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DatabaseError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Date:
+    file: lib/Google/Ads/AdWords/v201603/Date.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateError:
+    file: lib/Google/Ads/AdWords/v201603/DateError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DateError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateKey:
+    file: lib/Google/Ads/AdWords/v201603/DateKey.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateRange:
+    file: lib/Google/Ads/AdWords/v201603/DateRange.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateRangeError:
+    file: lib/Google/Ads/AdWords/v201603/DateRangeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateRangeError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DateRangeError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateRuleItem:
+    file: lib/Google/Ads/AdWords/v201603/DateRuleItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateRuleItem::DateOperator:
+    file: lib/Google/Ads/AdWords/v201603/DateRuleItem/DateOperator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateSpecificRuleUserList:
+    file: lib/Google/Ads/AdWords/v201603/DateSpecificRuleUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DateTimeRange:
+    file: lib/Google/Ads/AdWords/v201603/DateTimeRange.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DayOfWeek:
+    file: lib/Google/Ads/AdWords/v201603/DayOfWeek.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DeprecatedAd:
+    file: lib/Google/Ads/AdWords/v201603/DeprecatedAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DeprecatedAd::Type:
+    file: lib/Google/Ads/AdWords/v201603/DeprecatedAd/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DimensionProperties:
+    file: lib/Google/Ads/AdWords/v201603/DimensionProperties.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Dimensions:
+    file: lib/Google/Ads/AdWords/v201603/Dimensions.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DisapprovalReason:
+    file: lib/Google/Ads/AdWords/v201603/DisapprovalReason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DisplayAttribute:
+    file: lib/Google/Ads/AdWords/v201603/DisplayAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DistinctError:
+    file: lib/Google/Ads/AdWords/v201603/DistinctError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DistinctError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DistinctError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DomainCategory:
+    file: lib/Google/Ads/AdWords/v201603/DomainCategory.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DomainCategoryPage:
+    file: lib/Google/Ads/AdWords/v201603/DomainCategoryPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DoubleAttribute:
+    file: lib/Google/Ads/AdWords/v201603/DoubleAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DoubleValue:
+    file: lib/Google/Ads/AdWords/v201603/DoubleValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Draft:
+    file: lib/Google/Ads/AdWords/v201603/Draft.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncError:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorPage:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::DraftAsyncErrorServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/DraftAsyncErrorServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::get:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::query:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftAsyncErrorService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/DraftAsyncErrorService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftError:
+    file: lib/Google/Ads/AdWords/v201603/DraftError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/DraftError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftOperation:
+    file: lib/Google/Ads/AdWords/v201603/DraftOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftPage:
+    file: lib/Google/Ads/AdWords/v201603/DraftPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/DraftReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::DraftServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/DraftServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::get:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::query:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/DraftService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DraftStatus:
+    file: lib/Google/Ads/AdWords/v201603/DraftStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DynamicSearchAd:
+    file: lib/Google/Ads/AdWords/v201603/DynamicSearchAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::DynamicSearchAdsSetting:
+    file: lib/Google/Ads/AdWords/v201603/DynamicSearchAdsSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EnhancedCpcBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/EnhancedCpcBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityAccessDenied:
+    file: lib/Google/Ads/AdWords/v201603/EntityAccessDenied.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityAccessDenied::Reason:
+    file: lib/Google/Ads/AdWords/v201603/EntityAccessDenied/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityCountLimitExceeded:
+    file: lib/Google/Ads/AdWords/v201603/EntityCountLimitExceeded.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityCountLimitExceeded::Reason:
+    file: lib/Google/Ads/AdWords/v201603/EntityCountLimitExceeded/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityNotFound:
+    file: lib/Google/Ads/AdWords/v201603/EntityNotFound.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EntityNotFound::Reason:
+    file: lib/Google/Ads/AdWords/v201603/EntityNotFound/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EnumValuePair:
+    file: lib/Google/Ads/AdWords/v201603/EnumValuePair.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ErrorList:
+    file: lib/Google/Ads/AdWords/v201603/ErrorList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Estimate:
+    file: lib/Google/Ads/AdWords/v201603/Estimate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::EstimateRequest:
+    file: lib/Google/Ads/AdWords/v201603/EstimateRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExemptionRequest:
+    file: lib/Google/Ads/AdWords/v201603/ExemptionRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Experiment:
+    file: lib/Google/Ads/AdWords/v201603/Experiment.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentDataStatus:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentDataStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentDeltaStatus:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentDeltaStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentError:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentOperation:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentPage:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::ExperimentServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/ExperimentServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::get:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentServiceError:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentServiceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentServiceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentServiceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentServingStatus:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentServingStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentStatus:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExperimentSummaryStats:
+    file: lib/Google/Ads/AdWords/v201603/ExperimentSummaryStats.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExplorerAutoOptimizerSetting:
+    file: lib/Google/Ads/AdWords/v201603/ExplorerAutoOptimizerSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExpressionRuleUserList:
+    file: lib/Google/Ads/AdWords/v201603/ExpressionRuleUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExtensionFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/ExtensionFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExtensionSetting:
+    file: lib/Google/Ads/AdWords/v201603/ExtensionSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExtensionSetting::Platform:
+    file: lib/Google/Ads/AdWords/v201603/ExtensionSetting/Platform.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExtensionSettingError:
+    file: lib/Google/Ads/AdWords/v201603/ExtensionSettingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ExtensionSettingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ExtensionSettingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Feed:
+    file: lib/Google/Ads/AdWords/v201603/Feed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Feed::Origin:
+    file: lib/Google/Ads/AdWords/v201603/Feed/Origin.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Feed::Status:
+    file: lib/Google/Ads/AdWords/v201603/Feed/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Feed::Type:
+    file: lib/Google/Ads/AdWords/v201603/Feed/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedAttribute:
+    file: lib/Google/Ads/AdWords/v201603/FeedAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedAttribute::Type:
+    file: lib/Google/Ads/AdWords/v201603/FeedAttribute/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedAttributeOperand:
+    file: lib/Google/Ads/AdWords/v201603/FeedAttributeOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedAttributeReferenceError:
+    file: lib/Google/Ads/AdWords/v201603/FeedAttributeReferenceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedAttributeReferenceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FeedAttributeReferenceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedChangeData:
+    file: lib/Google/Ads/AdWords/v201603/FeedChangeData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedError:
+    file: lib/Google/Ads/AdWords/v201603/FeedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FeedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItem:
+    file: lib/Google/Ads/AdWords/v201603/FeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItem::Status:
+    file: lib/Google/Ads/AdWords/v201603/FeedItem/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemAdGroupTargeting:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemAdGroupTargeting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemApprovalStatus:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemApprovalStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemAttributeError:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemAttributeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemAttributeValue:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemAttributeValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemCampaignTargeting:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemCampaignTargeting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemDevicePreference:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemDevicePreference.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemError:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemOperation:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemPage:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemPolicyData:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemPolicyData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemSchedule:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemSchedule.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemScheduling:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemScheduling.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::FeedItemServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/FeedItemServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::get:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::query:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedItemValidationStatus:
+    file: lib/Google/Ads/AdWords/v201603/FeedItemValidationStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMapping:
+    file: lib/Google/Ads/AdWords/v201603/FeedMapping.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMapping::Status:
+    file: lib/Google/Ads/AdWords/v201603/FeedMapping/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingError:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingOperation:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingPage:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::FeedMappingServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/FeedMappingServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::get:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::query:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedMappingService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedMappingService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/FeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedPage:
+    file: lib/Google/Ads/AdWords/v201603/FeedPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/FeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::FeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/FeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::get:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::query:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FeedService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/FeedService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ForwardCompatibilityError:
+    file: lib/Google/Ads/AdWords/v201603/ForwardCompatibilityError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ForwardCompatibilityError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ForwardCompatibilityError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FrequencyCap:
+    file: lib/Google/Ads/AdWords/v201603/FrequencyCap.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Function:
+    file: lib/Google/Ads/AdWords/v201603/Function.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Function::Operator:
+    file: lib/Google/Ads/AdWords/v201603/Function/Operator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionArgumentOperand:
+    file: lib/Google/Ads/AdWords/v201603/FunctionArgumentOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionError:
+    file: lib/Google/Ads/AdWords/v201603/FunctionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FunctionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionOperand:
+    file: lib/Google/Ads/AdWords/v201603/FunctionOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionParsingError:
+    file: lib/Google/Ads/AdWords/v201603/FunctionParsingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::FunctionParsingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/FunctionParsingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Gender:
+    file: lib/Google/Ads/AdWords/v201603/Gender.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Gender::GenderType:
+    file: lib/Google/Ads/AdWords/v201603/Gender/GenderType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::GeoPoint:
+    file: lib/Google/Ads/AdWords/v201603/GeoPoint.pm
+    version: 0
+  Google::Ads::AdWords::v201603::GeoTargetOperand:
+    file: lib/Google/Ads/AdWords/v201603/GeoTargetOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::GeoTargetTypeSetting:
+    file: lib/Google/Ads/AdWords/v201603/GeoTargetTypeSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::GeoTargetTypeSetting::NegativeGeoTargetType:
+    file: lib/Google/Ads/AdWords/v201603/GeoTargetTypeSetting/NegativeGeoTargetType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::GeoTargetTypeSetting::PositiveGeoTargetType:
+    file: lib/Google/Ads/AdWords/v201603/GeoTargetTypeSetting/PositiveGeoTargetType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IdError:
+    file: lib/Google/Ads/AdWords/v201603/IdError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IdError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/IdError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IdeaTextFilterSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/IdeaTextFilterSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IdeaType:
+    file: lib/Google/Ads/AdWords/v201603/IdeaType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IdeaTypeAttribute:
+    file: lib/Google/Ads/AdWords/v201603/IdeaTypeAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Image:
+    file: lib/Google/Ads/AdWords/v201603/Image.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ImageAd:
+    file: lib/Google/Ads/AdWords/v201603/ImageAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ImageError:
+    file: lib/Google/Ads/AdWords/v201603/ImageError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ImageError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ImageError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IncludeAdultContentSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/IncludeAdultContentSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IncomeOperand:
+    file: lib/Google/Ads/AdWords/v201603/IncomeOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IncomeTier:
+    file: lib/Google/Ads/AdWords/v201603/IncomeTier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IntegerAttribute:
+    file: lib/Google/Ads/AdWords/v201603/IntegerAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IntegerSetAttribute:
+    file: lib/Google/Ads/AdWords/v201603/IntegerSetAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::InternalApiError:
+    file: lib/Google/Ads/AdWords/v201603/InternalApiError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::InternalApiError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/InternalApiError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::IpBlock:
+    file: lib/Google/Ads/AdWords/v201603/IpBlock.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Keyword:
+    file: lib/Google/Ads/AdWords/v201603/Keyword.pm
+    version: 0
+  Google::Ads::AdWords::v201603::KeywordAttribute:
+    file: lib/Google/Ads/AdWords/v201603/KeywordAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::KeywordEstimate:
+    file: lib/Google/Ads/AdWords/v201603/KeywordEstimate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::KeywordEstimateRequest:
+    file: lib/Google/Ads/AdWords/v201603/KeywordEstimateRequest.pm
+    version: 0
+  Google::Ads::AdWords::v201603::KeywordMatchType:
+    file: lib/Google/Ads/AdWords/v201603/KeywordMatchType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Label:
+    file: lib/Google/Ads/AdWords/v201603/Label.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Label::Status:
+    file: lib/Google/Ads/AdWords/v201603/Label/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelAttribute:
+    file: lib/Google/Ads/AdWords/v201603/LabelAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelError:
+    file: lib/Google/Ads/AdWords/v201603/LabelError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/LabelError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/LabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelPage:
+    file: lib/Google/Ads/AdWords/v201603/LabelPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/LabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::LabelServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/LabelServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::get:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::query:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/LabelService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelServiceError:
+    file: lib/Google/Ads/AdWords/v201603/LabelServiceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LabelServiceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/LabelServiceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Language:
+    file: lib/Google/Ads/AdWords/v201603/Language.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LanguageSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/LanguageSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Level:
+    file: lib/Google/Ads/AdWords/v201603/Level.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LevelOfDetail:
+    file: lib/Google/Ads/AdWords/v201603/LevelOfDetail.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LinkOperation:
+    file: lib/Google/Ads/AdWords/v201603/LinkOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LinkStatus:
+    file: lib/Google/Ads/AdWords/v201603/LinkStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ListReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/ListReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Location:
+    file: lib/Google/Ads/AdWords/v201603/Location.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterion:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::LocationCriterionServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/LocationCriterionServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::get:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::query:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionServiceError:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionServiceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationCriterionServiceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/LocationCriterionServiceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationExtensionOperand:
+    file: lib/Google/Ads/AdWords/v201603/LocationExtensionOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationGroups:
+    file: lib/Google/Ads/AdWords/v201603/LocationGroups.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/LocationSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LocationTargetingStatus:
+    file: lib/Google/Ads/AdWords/v201603/LocationTargetingStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LogicalUserList:
+    file: lib/Google/Ads/AdWords/v201603/LogicalUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LogicalUserListOperand:
+    file: lib/Google/Ads/AdWords/v201603/LogicalUserListOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LongAttribute:
+    file: lib/Google/Ads/AdWords/v201603/LongAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LongComparisonOperation:
+    file: lib/Google/Ads/AdWords/v201603/LongComparisonOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LongRangeAttribute:
+    file: lib/Google/Ads/AdWords/v201603/LongRangeAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::LongValue:
+    file: lib/Google/Ads/AdWords/v201603/LongValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomer:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomer.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerLabel:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerLabelOperation:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerLabelOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerLabelReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerLabelReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerLink:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerLink.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerOperation:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerPage:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::ManagedCustomerServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/ManagedCustomerServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::get:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::getPendingInvitations:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/getPendingInvitations.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::getPendingInvitationsResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/getPendingInvitationsResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateLabel:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateLabelResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateLabelResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateLink:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateLink.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateLinkResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateLinkResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateManager:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateManager.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateManagerResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateManagerResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerServiceError:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerServiceError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManagedCustomerServiceError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ManagedCustomerServiceError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManualCPCAdGroupCriterionExperimentBidMultiplier:
+    file: lib/Google/Ads/AdWords/v201603/ManualCPCAdGroupCriterionExperimentBidMultiplier.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManualCPCAdGroupExperimentBidMultipliers:
+    file: lib/Google/Ads/AdWords/v201603/ManualCPCAdGroupExperimentBidMultipliers.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManualCPMAdGroupExperimentBidMultipliers:
+    file: lib/Google/Ads/AdWords/v201603/ManualCPMAdGroupExperimentBidMultipliers.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManualCpcBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/ManualCpcBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ManualCpmBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/ManualCpmBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media:
+    file: lib/Google/Ads/AdWords/v201603/Media.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media::MediaType:
+    file: lib/Google/Ads/AdWords/v201603/Media/MediaType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media::MimeType:
+    file: lib/Google/Ads/AdWords/v201603/Media/MimeType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media::Size:
+    file: lib/Google/Ads/AdWords/v201603/Media/Size.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaBundle:
+    file: lib/Google/Ads/AdWords/v201603/MediaBundle.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaBundleError:
+    file: lib/Google/Ads/AdWords/v201603/MediaBundleError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaBundleError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/MediaBundleError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaError:
+    file: lib/Google/Ads/AdWords/v201603/MediaError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/MediaError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaPage:
+    file: lib/Google/Ads/AdWords/v201603/MediaPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::MediaServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/MediaServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::get:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::query:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::upload:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/upload.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MediaService::uploadResponse:
+    file: lib/Google/Ads/AdWords/v201603/MediaService/uploadResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media_Size_DimensionsMapEntry:
+    file: lib/Google/Ads/AdWords/v201603/Media_Size_DimensionsMapEntry.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Media_Size_StringMapEntry:
+    file: lib/Google/Ads/AdWords/v201603/Media_Size_StringMapEntry.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MinuteOfHour:
+    file: lib/Google/Ads/AdWords/v201603/MinuteOfHour.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MobileAppCategory:
+    file: lib/Google/Ads/AdWords/v201603/MobileAppCategory.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MobileApplication:
+    file: lib/Google/Ads/AdWords/v201603/MobileApplication.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MobileDevice:
+    file: lib/Google/Ads/AdWords/v201603/MobileDevice.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MobileDevice::DeviceType:
+    file: lib/Google/Ads/AdWords/v201603/MobileDevice/DeviceType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Money:
+    file: lib/Google/Ads/AdWords/v201603/Money.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MoneyAttribute:
+    file: lib/Google/Ads/AdWords/v201603/MoneyAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MonthlySearchVolume:
+    file: lib/Google/Ads/AdWords/v201603/MonthlySearchVolume.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MonthlySearchVolumeAttribute:
+    file: lib/Google/Ads/AdWords/v201603/MonthlySearchVolumeAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MoveOperation:
+    file: lib/Google/Ads/AdWords/v201603/MoveOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MultiplierError:
+    file: lib/Google/Ads/AdWords/v201603/MultiplierError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MultiplierError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/MultiplierError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MultiplierSource:
+    file: lib/Google/Ads/AdWords/v201603/MultiplierSource.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateLinkResults:
+    file: lib/Google/Ads/AdWords/v201603/MutateLinkResults.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateManagerResults:
+    file: lib/Google/Ads/AdWords/v201603/MutateManagerResults.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersError:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersOperand:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersOperand::DataType:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersOperand/DataType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersOperation:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateMembersReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/MutateMembersReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::MutateResult:
+    file: lib/Google/Ads/AdWords/v201603/MutateResult.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NegativeAdGroupCriterion:
+    file: lib/Google/Ads/AdWords/v201603/NegativeAdGroupCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NegativeCampaignCriterion:
+    file: lib/Google/Ads/AdWords/v201603/NegativeCampaignCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NetworkSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/NetworkSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NetworkSetting:
+    file: lib/Google/Ads/AdWords/v201603/NetworkSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NewEntityCreationError:
+    file: lib/Google/Ads/AdWords/v201603/NewEntityCreationError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NewEntityCreationError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/NewEntityCreationError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NoStatsPage:
+    file: lib/Google/Ads/AdWords/v201603/NoStatsPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NotEmptyError:
+    file: lib/Google/Ads/AdWords/v201603/NotEmptyError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NotEmptyError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/NotEmptyError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NotWhitelistedError:
+    file: lib/Google/Ads/AdWords/v201603/NotWhitelistedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NotWhitelistedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/NotWhitelistedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NullError:
+    file: lib/Google/Ads/AdWords/v201603/NullError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NullError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/NullError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NullStatsPage:
+    file: lib/Google/Ads/AdWords/v201603/NullStatsPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NumberKey:
+    file: lib/Google/Ads/AdWords/v201603/NumberKey.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NumberRuleItem:
+    file: lib/Google/Ads/AdWords/v201603/NumberRuleItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NumberRuleItem::NumberOperator:
+    file: lib/Google/Ads/AdWords/v201603/NumberRuleItem/NumberOperator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::NumberValue:
+    file: lib/Google/Ads/AdWords/v201603/NumberValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OAuthInfo:
+    file: lib/Google/Ads/AdWords/v201603/OAuthInfo.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionError:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeed:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeed.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedOperation:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::OfflineConversionFeedServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/OfflineConversionFeedServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OfflineConversionFeedService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/OfflineConversionFeedService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Operand:
+    file: lib/Google/Ads/AdWords/v201603/Operand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperatingSystemVersion:
+    file: lib/Google/Ads/AdWords/v201603/OperatingSystemVersion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperatingSystemVersion::OperatorType:
+    file: lib/Google/Ads/AdWords/v201603/OperatingSystemVersion/OperatorType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Operation:
+    file: lib/Google/Ads/AdWords/v201603/Operation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperationAccessDenied:
+    file: lib/Google/Ads/AdWords/v201603/OperationAccessDenied.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperationAccessDenied::Reason:
+    file: lib/Google/Ads/AdWords/v201603/OperationAccessDenied/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Operator:
+    file: lib/Google/Ads/AdWords/v201603/Operator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperatorError:
+    file: lib/Google/Ads/AdWords/v201603/OperatorError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OperatorError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/OperatorError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::OrderBy:
+    file: lib/Google/Ads/AdWords/v201603/OrderBy.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Page:
+    file: lib/Google/Ads/AdWords/v201603/Page.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PageOnePromotedBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/PageOnePromotedBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PageOnePromotedBiddingScheme::StrategyGoal:
+    file: lib/Google/Ads/AdWords/v201603/PageOnePromotedBiddingScheme/StrategyGoal.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Paging:
+    file: lib/Google/Ads/AdWords/v201603/Paging.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PagingError:
+    file: lib/Google/Ads/AdWords/v201603/PagingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PagingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/PagingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Parent:
+    file: lib/Google/Ads/AdWords/v201603/Parent.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Parent::ParentType:
+    file: lib/Google/Ads/AdWords/v201603/Parent/ParentType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PendingInvitation:
+    file: lib/Google/Ads/AdWords/v201603/PendingInvitation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PendingInvitationSelector:
+    file: lib/Google/Ads/AdWords/v201603/PendingInvitationSelector.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Placement:
+    file: lib/Google/Ads/AdWords/v201603/Placement.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PlacesLocationFeedData:
+    file: lib/Google/Ads/AdWords/v201603/PlacesLocationFeedData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PlacesOfInterestOperand:
+    file: lib/Google/Ads/AdWords/v201603/PlacesOfInterestOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PlacesOfInterestOperand::Category:
+    file: lib/Google/Ads/AdWords/v201603/PlacesOfInterestOperand/Category.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Platform:
+    file: lib/Google/Ads/AdWords/v201603/Platform.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PolicyData:
+    file: lib/Google/Ads/AdWords/v201603/PolicyData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PolicyViolationError:
+    file: lib/Google/Ads/AdWords/v201603/PolicyViolationError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PolicyViolationError::Part:
+    file: lib/Google/Ads/AdWords/v201603/PolicyViolationError/Part.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PolicyViolationKey:
+    file: lib/Google/Ads/AdWords/v201603/PolicyViolationKey.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Predicate:
+    file: lib/Google/Ads/AdWords/v201603/Predicate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Predicate::Operator:
+    file: lib/Google/Ads/AdWords/v201603/Predicate/Operator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::PreferredContent:
+    file: lib/Google/Ads/AdWords/v201603/PreferredContent.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductAd:
+    file: lib/Google/Ads/AdWords/v201603/ProductAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductAdwordsGrouping:
+    file: lib/Google/Ads/AdWords/v201603/ProductAdwordsGrouping.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductAdwordsLabels:
+    file: lib/Google/Ads/AdWords/v201603/ProductAdwordsLabels.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductBiddingCategory:
+    file: lib/Google/Ads/AdWords/v201603/ProductBiddingCategory.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductBiddingCategoryData:
+    file: lib/Google/Ads/AdWords/v201603/ProductBiddingCategoryData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductBrand:
+    file: lib/Google/Ads/AdWords/v201603/ProductBrand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductCanonicalCondition:
+    file: lib/Google/Ads/AdWords/v201603/ProductCanonicalCondition.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductCanonicalCondition::Condition:
+    file: lib/Google/Ads/AdWords/v201603/ProductCanonicalCondition/Condition.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductChannel:
+    file: lib/Google/Ads/AdWords/v201603/ProductChannel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductChannelExclusivity:
+    file: lib/Google/Ads/AdWords/v201603/ProductChannelExclusivity.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductCustomAttribute:
+    file: lib/Google/Ads/AdWords/v201603/ProductCustomAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductDimension:
+    file: lib/Google/Ads/AdWords/v201603/ProductDimension.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductDimensionType:
+    file: lib/Google/Ads/AdWords/v201603/ProductDimensionType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductLegacyCondition:
+    file: lib/Google/Ads/AdWords/v201603/ProductLegacyCondition.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductOfferId:
+    file: lib/Google/Ads/AdWords/v201603/ProductOfferId.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductPartition:
+    file: lib/Google/Ads/AdWords/v201603/ProductPartition.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductPartitionType:
+    file: lib/Google/Ads/AdWords/v201603/ProductPartitionType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductScope:
+    file: lib/Google/Ads/AdWords/v201603/ProductScope.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductType:
+    file: lib/Google/Ads/AdWords/v201603/ProductType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProductTypeFull:
+    file: lib/Google/Ads/AdWords/v201603/ProductTypeFull.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ProgressStats:
+    file: lib/Google/Ads/AdWords/v201603/ProgressStats.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Proximity:
+    file: lib/Google/Ads/AdWords/v201603/Proximity.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Proximity::DistanceUnits:
+    file: lib/Google/Ads/AdWords/v201603/Proximity/DistanceUnits.pm
+    version: 0
+  Google::Ads::AdWords::v201603::QualityInfo:
+    file: lib/Google/Ads/AdWords/v201603/QualityInfo.pm
+    version: 0
+  Google::Ads::AdWords::v201603::QueryError:
+    file: lib/Google/Ads/AdWords/v201603/QueryError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::QueryError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/QueryError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::QuotaCheckError:
+    file: lib/Google/Ads/AdWords/v201603/QuotaCheckError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::QuotaCheckError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/QuotaCheckError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Range:
+    file: lib/Google/Ads/AdWords/v201603/Range.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RangeError:
+    file: lib/Google/Ads/AdWords/v201603/RangeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RangeError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RangeError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RateExceededError:
+    file: lib/Google/Ads/AdWords/v201603/RateExceededError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RateExceededError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RateExceededError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReadOnlyError:
+    file: lib/Google/Ads/AdWords/v201603/ReadOnlyError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReadOnlyError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ReadOnlyError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RealTimeBiddingSetting:
+    file: lib/Google/Ads/AdWords/v201603/RealTimeBiddingSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RegionCodeError:
+    file: lib/Google/Ads/AdWords/v201603/RegionCodeError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RegionCodeError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RegionCodeError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RejectedError:
+    file: lib/Google/Ads/AdWords/v201603/RejectedError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RejectedError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RejectedError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RelatedToQuerySearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/RelatedToQuerySearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RelatedToUrlSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/RelatedToUrlSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RemarketingSettings:
+    file: lib/Google/Ads/AdWords/v201603/RemarketingSettings.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinition::ReportType:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinition/ReportType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionError:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionField:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionField.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::ReportDefinitionServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/ReportDefinitionServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::getReportFields:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/getReportFields.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReportDefinitionService::getReportFieldsResponse:
+    file: lib/Google/Ads/AdWords/v201603/ReportDefinitionService/getReportFieldsResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequestContextOperand:
+    file: lib/Google/Ads/AdWords/v201603/RequestContextOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequestContextOperand::ContextType:
+    file: lib/Google/Ads/AdWords/v201603/RequestContextOperand/ContextType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequestError:
+    file: lib/Google/Ads/AdWords/v201603/RequestError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequestError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RequestError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequestType:
+    file: lib/Google/Ads/AdWords/v201603/RequestType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequiredError:
+    file: lib/Google/Ads/AdWords/v201603/RequiredError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RequiredError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/RequiredError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ReviewFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/ReviewFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RichMediaAd:
+    file: lib/Google/Ads/AdWords/v201603/RichMediaAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RichMediaAd::AdAttribute:
+    file: lib/Google/Ads/AdWords/v201603/RichMediaAd/AdAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RichMediaAd::RichMediaAdType:
+    file: lib/Google/Ads/AdWords/v201603/RichMediaAd/RichMediaAdType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Rule:
+    file: lib/Google/Ads/AdWords/v201603/Rule.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RuleBasedUserList:
+    file: lib/Google/Ads/AdWords/v201603/RuleBasedUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RuleItem:
+    file: lib/Google/Ads/AdWords/v201603/RuleItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::RuleItemGroup:
+    file: lib/Google/Ads/AdWords/v201603/RuleItemGroup.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/SearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SearchVolumeSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/SearchVolumeSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SeedAdGroupIdSearchParameter:
+    file: lib/Google/Ads/AdWords/v201603/SeedAdGroupIdSearchParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Selector:
+    file: lib/Google/Ads/AdWords/v201603/Selector.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SelectorError:
+    file: lib/Google/Ads/AdWords/v201603/SelectorError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SelectorError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/SelectorError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ServingStatus:
+    file: lib/Google/Ads/AdWords/v201603/ServingStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Setting:
+    file: lib/Google/Ads/AdWords/v201603/Setting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SettingError:
+    file: lib/Google/Ads/AdWords/v201603/SettingError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SettingError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/SettingError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedBiddingStrategy:
+    file: lib/Google/Ads/AdWords/v201603/SharedBiddingStrategy.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedBiddingStrategy::BiddingStrategyStatus:
+    file: lib/Google/Ads/AdWords/v201603/SharedBiddingStrategy/BiddingStrategyStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterion:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionError:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionOperation:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionPage:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::SharedCriterionServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/SharedCriterionServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::get:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::query:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedCriterionService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedCriterionService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSet:
+    file: lib/Google/Ads/AdWords/v201603/SharedSet.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSet::Status:
+    file: lib/Google/Ads/AdWords/v201603/SharedSet/Status.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetError:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetOperation:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetPage:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::SharedSetServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/SharedSetServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::get:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::query:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SharedSetType:
+    file: lib/Google/Ads/AdWords/v201603/SharedSetType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ShoppingBiddingDimensionStatus:
+    file: lib/Google/Ads/AdWords/v201603/ShoppingBiddingDimensionStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ShoppingProductChannel:
+    file: lib/Google/Ads/AdWords/v201603/ShoppingProductChannel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ShoppingProductChannelExclusivity:
+    file: lib/Google/Ads/AdWords/v201603/ShoppingProductChannelExclusivity.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ShoppingSetting:
+    file: lib/Google/Ads/AdWords/v201603/ShoppingSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SimilarUserList:
+    file: lib/Google/Ads/AdWords/v201603/SimilarUserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SitelinkFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/SitelinkFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SizeLimitError:
+    file: lib/Google/Ads/AdWords/v201603/SizeLimitError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SizeLimitError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/SizeLimitError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SizeRange:
+    file: lib/Google/Ads/AdWords/v201603/SizeRange.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SoapHeader:
+    file: lib/Google/Ads/AdWords/v201603/SoapHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SoapResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/SoapResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SortOrder:
+    file: lib/Google/Ads/AdWords/v201603/SortOrder.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StatsEstimate:
+    file: lib/Google/Ads/AdWords/v201603/StatsEstimate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StatsQueryError:
+    file: lib/Google/Ads/AdWords/v201603/StatsQueryError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StatsQueryError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/StatsQueryError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringAttribute:
+    file: lib/Google/Ads/AdWords/v201603/StringAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringFormatError:
+    file: lib/Google/Ads/AdWords/v201603/StringFormatError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringFormatError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/StringFormatError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringKey:
+    file: lib/Google/Ads/AdWords/v201603/StringKey.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringLengthError:
+    file: lib/Google/Ads/AdWords/v201603/StringLengthError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringLengthError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/StringLengthError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringRuleItem:
+    file: lib/Google/Ads/AdWords/v201603/StringRuleItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StringRuleItem::StringOperator:
+    file: lib/Google/Ads/AdWords/v201603/StringRuleItem/StringOperator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::String_StringMapEntry:
+    file: lib/Google/Ads/AdWords/v201603/String_StringMapEntry.pm
+    version: 0
+  Google::Ads::AdWords::v201603::StructuredSnippetFeedItem:
+    file: lib/Google/Ads/AdWords/v201603/StructuredSnippetFeedItem.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SystemFeedGenerationData:
+    file: lib/Google/Ads/AdWords/v201603/SystemFeedGenerationData.pm
+    version: 0
+  Google::Ads::AdWords::v201603::SystemServingStatus:
+    file: lib/Google/Ads/AdWords/v201603/SystemServingStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetCpaBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/TargetCpaBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetOutrankShareBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/TargetOutrankShareBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetRoasBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/TargetRoasBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetSpendBiddingScheme:
+    file: lib/Google/Ads/AdWords/v201603/TargetSpendBiddingScheme.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdea:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdea.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaError:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaPage:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaSelector:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaSelector.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::TargetingIdeaServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/TargetingIdeaServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::get:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingIdeaService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/TargetingIdeaService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingSetting:
+    file: lib/Google/Ads/AdWords/v201603/TargetingSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TargetingSettingDetail:
+    file: lib/Google/Ads/AdWords/v201603/TargetingSettingDetail.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TempAdUnionId:
+    file: lib/Google/Ads/AdWords/v201603/TempAdUnionId.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TemplateAd:
+    file: lib/Google/Ads/AdWords/v201603/TemplateAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TemplateElement:
+    file: lib/Google/Ads/AdWords/v201603/TemplateElement.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TemplateElementField:
+    file: lib/Google/Ads/AdWords/v201603/TemplateElementField.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TemplateElementField::Type:
+    file: lib/Google/Ads/AdWords/v201603/TemplateElementField/Type.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TemporaryUrl:
+    file: lib/Google/Ads/AdWords/v201603/TemporaryUrl.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TextAd:
+    file: lib/Google/Ads/AdWords/v201603/TextAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TextLabel:
+    file: lib/Google/Ads/AdWords/v201603/TextLabel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ThirdPartyRedirectAd:
+    file: lib/Google/Ads/AdWords/v201603/ThirdPartyRedirectAd.pm
+    version: 0
+  Google::Ads::AdWords::v201603::ThirdPartyRedirectAd::ExpandingDirection:
+    file: lib/Google/Ads/AdWords/v201603/ThirdPartyRedirectAd/ExpandingDirection.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TimeUnit:
+    file: lib/Google/Ads/AdWords/v201603/TimeUnit.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrackingSetting:
+    file: lib/Google/Ads/AdWords/v201603/TrackingSetting.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorError:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorResult:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorResult.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorSelector:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorSelector.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::TrafficEstimatorServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/TrafficEstimatorServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::get:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrafficEstimatorService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrafficEstimatorService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Trial:
+    file: lib/Google/Ads/AdWords/v201603/Trial.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncError:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorPage:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::TrialAsyncErrorServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/TrialAsyncErrorServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::get:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::query:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialAsyncErrorService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrialAsyncErrorService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialError:
+    file: lib/Google/Ads/AdWords/v201603/TrialError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/TrialError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialOperation:
+    file: lib/Google/Ads/AdWords/v201603/TrialOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialPage:
+    file: lib/Google/Ads/AdWords/v201603/TrialPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/TrialReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::ApiExceptionFault:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/ApiExceptionFault.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::RequestHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/RequestHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::ResponseHeader:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/ResponseHeader.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::TrialServiceInterfacePort:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/TrialServiceInterfacePort.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::get:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/get.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::getResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/getResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::mutate:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/mutate.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::mutateResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/mutateResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::query:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/query.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialService::queryResponse:
+    file: lib/Google/Ads/AdWords/v201603/TrialService/queryResponse.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TrialStatus:
+    file: lib/Google/Ads/AdWords/v201603/TrialStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AccountLabelService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AccountLabelService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdCustomizerFeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdCustomizerFeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupAdService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupAdService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupBidModifierService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupBidModifierService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupCriterionService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupCriterionService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupExtensionSettingService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupExtensionSettingService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupFeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupFeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdGroupService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdGroupService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdParamService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdParamService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::AdwordsUserListService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/AdwordsUserListService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::BatchJobOpsService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/BatchJobOpsService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::BatchJobService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/BatchJobService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::BiddingStrategyService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/BiddingStrategyService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::BudgetOrderService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/BudgetOrderService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::BudgetService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/BudgetService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CampaignCriterionService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CampaignCriterionService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CampaignExtensionSettingService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CampaignExtensionSettingService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CampaignFeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CampaignFeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CampaignService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CampaignService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CampaignSharedSetService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CampaignSharedSetService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::ConstantDataService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/ConstantDataService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::ConversionTrackerService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/ConversionTrackerService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CustomerExtensionSettingService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CustomerExtensionSettingService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CustomerFeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CustomerFeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CustomerService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CustomerService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::CustomerSyncService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/CustomerSyncService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::DataService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/DataService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::DraftAsyncErrorService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/DraftAsyncErrorService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::DraftService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/DraftService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::ExperimentService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/ExperimentService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::FeedItemService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/FeedItemService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::FeedMappingService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/FeedMappingService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::FeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/FeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::LabelService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/LabelService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::LocationCriterionService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/LocationCriterionService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::ManagedCustomerService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/ManagedCustomerService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::MediaService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/MediaService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::OfflineConversionFeedService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/OfflineConversionFeedService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::ReportDefinitionService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/ReportDefinitionService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::SharedCriterionService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/SharedCriterionService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::SharedSetService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/SharedSetService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::TargetingIdeaService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/TargetingIdeaService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::TrafficEstimatorService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/TrafficEstimatorService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::TrialAsyncErrorService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/TrialAsyncErrorService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::TypeMaps::TrialService:
+    file: lib/Google/Ads/AdWords/v201603/TypeMaps/TrialService.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Type_AttributeMapEntry:
+    file: lib/Google/Ads/AdWords/v201603/Type_AttributeMapEntry.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UnknownProductDimension:
+    file: lib/Google/Ads/AdWords/v201603/UnknownProductDimension.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UploadConversion:
+    file: lib/Google/Ads/AdWords/v201603/UploadConversion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UrlError:
+    file: lib/Google/Ads/AdWords/v201603/UrlError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UrlError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/UrlError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UrlList:
+    file: lib/Google/Ads/AdWords/v201603/UrlList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserList:
+    file: lib/Google/Ads/AdWords/v201603/UserList.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListConversionType:
+    file: lib/Google/Ads/AdWords/v201603/UserListConversionType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListConversionType::Category:
+    file: lib/Google/Ads/AdWords/v201603/UserListConversionType/Category.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListError:
+    file: lib/Google/Ads/AdWords/v201603/UserListError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/UserListError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListLogicalRule:
+    file: lib/Google/Ads/AdWords/v201603/UserListLogicalRule.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListLogicalRule::Operator:
+    file: lib/Google/Ads/AdWords/v201603/UserListLogicalRule/Operator.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListMembershipStatus:
+    file: lib/Google/Ads/AdWords/v201603/UserListMembershipStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListOperation:
+    file: lib/Google/Ads/AdWords/v201603/UserListOperation.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListPage:
+    file: lib/Google/Ads/AdWords/v201603/UserListPage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListReturnValue:
+    file: lib/Google/Ads/AdWords/v201603/UserListReturnValue.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserListType:
+    file: lib/Google/Ads/AdWords/v201603/UserListType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::UserStatus:
+    file: lib/Google/Ads/AdWords/v201603/UserStatus.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VanityPharma:
+    file: lib/Google/Ads/AdWords/v201603/VanityPharma.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VanityPharmaDisplayUrlMode:
+    file: lib/Google/Ads/AdWords/v201603/VanityPharmaDisplayUrlMode.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VanityPharmaText:
+    file: lib/Google/Ads/AdWords/v201603/VanityPharmaText.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Vertical:
+    file: lib/Google/Ads/AdWords/v201603/Vertical.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Video:
+    file: lib/Google/Ads/AdWords/v201603/Video.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VideoError:
+    file: lib/Google/Ads/AdWords/v201603/VideoError.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VideoError::Reason:
+    file: lib/Google/Ads/AdWords/v201603/VideoError/Reason.pm
+    version: 0
+  Google::Ads::AdWords::v201603::VideoType:
+    file: lib/Google/Ads/AdWords/v201603/VideoType.pm
+    version: 0
+  Google::Ads::AdWords::v201603::Webpage:
+    file: lib/Google/Ads/AdWords/v201603/Webpage.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebpageCondition:
+    file: lib/Google/Ads/AdWords/v201603/WebpageCondition.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebpageConditionOperand:
+    file: lib/Google/Ads/AdWords/v201603/WebpageConditionOperand.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebpageDescriptor:
+    file: lib/Google/Ads/AdWords/v201603/WebpageDescriptor.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebpageDescriptorAttribute:
+    file: lib/Google/Ads/AdWords/v201603/WebpageDescriptorAttribute.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebpageParameter:
+    file: lib/Google/Ads/AdWords/v201603/WebpageParameter.pm
+    version: 0
+  Google::Ads::AdWords::v201603::WebsiteCallMetricsConversion:
+    file: lib/Google/Ads/AdWords/v201603/WebsiteCallMetricsConversion.pm
+    version: 0
+  Google::Ads::AdWords::v201603::YouTubeChannel:
+    file: lib/Google/Ads/AdWords/v201603/YouTubeChannel.pm
+    version: 0
+  Google::Ads::AdWords::v201603::YouTubeVideo:
+    file: lib/Google/Ads/AdWords/v201603/YouTubeVideo.pm
+    version: 0
   Google::Ads::Common::AuthError:
     file: lib/Google/Ads/Common/AuthError.pm
     version: v3.1.2
@@ -11170,10 +14954,13 @@ provides:
     version: v3.1.2
   Google::Ads::Common::ReportDownloadHandler:
     file: lib/Google/Ads/Common/ReportDownloadHandler.pm
-    version: v4.3.0
+    version: v4.4.0
   Google::Ads::Common::ReportUtils:
     file: lib/Google/Ads/Common/ReportUtils.pm
     version: v3.1.2
+  Google::Ads::Common::Utilities::AdsUtilityRegistry:
+    file: lib/Google/Ads/Common/Utilities/AdsUtilityRegistry.pm
+    version: v4.4.0
   Google::Ads::Common::XPathSAXParser:
     file: lib/Google/Ads/Common/XPathSAXParser.pm
     version: v3.1.2
@@ -11204,6 +14991,7 @@ requires:
   File::Spec: 0
   File::Temp: 0
   Getopt::Long: 0
+  HTTP::Server::Simple::CGI: 0
   IO::Socket::SSL: 0
   LWP::Protocol::https: 0
   LWP::UserAgent: 0
@@ -11219,4 +15007,4 @@ requires:
   perl: v5.14.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
-version: v4.3.0
+version: v4.4.0
