@@ -23,6 +23,7 @@ WriteMakefile
                    'Getopt::Long' => 0,
                    'HTTP::Server::Simple::CGI' => 0,
                    'IO::Socket::SSL' => 0,
+                   'JSON::Parse' => 0,
                    'LWP::Protocol::https' => 0,
                    'LWP::UserAgent' => 0,
                    'List::Util' => 0,

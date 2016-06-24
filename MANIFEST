@@ -4054,7 +4054,6 @@ lib/Google/Ads/SOAP/Generator/TypemapVisitor.pm
 lib/Google/Ads/SOAP/Typelib/ComplexType.pm
 LICENSE
 MANIFEST			This list of files
-README
 README.md
 t/001_require.t
 t/011_Client.t
@@ -4080,6 +4079,7 @@ t/170_CampaignCriterionService.ft
 t/testdata/client.properties
 t/testdata/client.test.input
 t/testdata/client.withreportconfig.test.input
+t/testdata/test-cert.json
 t/testdata/test-cert.pem
 t/testdata/test.properties
 t/util/TestAPIUtils.pm

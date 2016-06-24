@@ -23,25 +23,25 @@ name: Google-Ads-AdWords-Client
 provides:
   Google::Ads::AdWords::Client:
     file: lib/Google/Ads/AdWords/Client.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Constants:
     file: lib/Google/Ads/AdWords/Constants.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Deserializer:
     file: lib/Google/Ads/AdWords/Deserializer.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::FaultDetail:
     file: lib/Google/Ads/AdWords/FaultDetail.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Logging:
     file: lib/Google/Ads/AdWords/Logging.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::OAuth2ApplicationsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ApplicationsHandler.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::OAuth2ServiceAccountsHandler:
     file: lib/Google/Ads/AdWords/OAuth2ServiceAccountsHandler.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Reports::DateRange:
     file: lib/Google/Ads/AdWords/Reports/DateRange.pm
     version: 0
@@ -71,7 +71,7 @@ provides:
     version: 0
   Google::Ads::AdWords::Reports::ReportingConfiguration:
     file: lib/Google/Ads/AdWords/Reports/ReportingConfiguration.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Reports::Selector:
     file: lib/Google/Ads/AdWords/Reports/Selector.pm
     version: 0
@@ -83,19 +83,19 @@ provides:
     version: 0
   Google::Ads::AdWords::Serializer:
     file: lib/Google/Ads/AdWords/Serializer.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::Utilities::BatchJobHandler:
     file: lib/Google/Ads/AdWords/Utilities/BatchJobHandler.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::AdWords::Utilities::BatchJobHandlerError:
     file: lib/Google/Ads/AdWords/Utilities/BatchJobHandlerError.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::AdWords::Utilities::BatchJobHandlerStatus:
     file: lib/Google/Ads/AdWords/Utilities/BatchJobHandlerStatus.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::AdWords::Utilities::PageProcessor:
     file: lib/Google/Ads/AdWords/Utilities/PageProcessor.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::AdWords::v201601::AccessReason:
     file: lib/Google/Ads/AdWords/v201601/AccessReason.pm
     version: 0
@@ -11375,55 +11375,55 @@ provides:
     version: 0
   Google::Ads::Common::AuthError:
     file: lib/Google/Ads/Common/AuthError.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::AuthHandlerInterface:
     file: lib/Google/Ads/Common/AuthHandlerInterface.pm
     version: 0
   Google::Ads::Common::CaptchaRequiredError:
     file: lib/Google/Ads/Common/CaptchaRequiredError.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::Constants:
     file: lib/Google/Ads/Common/Constants.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::ErrorUtils:
     file: lib/Google/Ads/Common/ErrorUtils.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::HTTPTransport:
     file: lib/Google/Ads/Common/HTTPTransport.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::MapUtils:
     file: lib/Google/Ads/Common/MapUtils.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::MediaUtils:
     file: lib/Google/Ads/Common/MediaUtils.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::OAuth2ApplicationsHandler:
     file: lib/Google/Ads/Common/OAuth2ApplicationsHandler.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::OAuth2BaseHandler:
     file: lib/Google/Ads/Common/OAuth2BaseHandler.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::OAuth2ServiceAccountsHandler:
     file: lib/Google/Ads/Common/OAuth2ServiceAccountsHandler.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::OAuthApplicationsHandlerInterface:
     file: lib/Google/Ads/Common/OAuthApplicationsHandlerInterface.pm
     version: 0
   Google::Ads::Common::ReportDownloadError:
     file: lib/Google/Ads/Common/ReportDownloadError.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::ReportDownloadHandler:
     file: lib/Google/Ads/Common/ReportDownloadHandler.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::Common::ReportUtils:
     file: lib/Google/Ads/Common/ReportUtils.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::Common::Utilities::AdsUtilityRegistry:
     file: lib/Google/Ads/Common/Utilities/AdsUtilityRegistry.pm
-    version: v4.7.0
+    version: v4.7.1
   Google::Ads::Common::XPathSAXParser:
     file: lib/Google/Ads/Common/XPathSAXParser.pm
-    version: v3.1.3
+    version: v3.2.0
   Google::Ads::SOAP::Deserializer::MessageParser:
     file: lib/Google/Ads/SOAP/Deserializer/MessageParser.pm
     version: 0
@@ -11453,6 +11453,7 @@ requires:
   Getopt::Long: 0
   HTTP::Server::Simple::CGI: 0
   IO::Socket::SSL: 0
+  JSON::Parse: 0
   LWP::Protocol::https: 0
   LWP::UserAgent: 0
   List::Util: 0
@@ -11467,4 +11468,4 @@ requires:
   perl: v5.14.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
-version: v4.7.0
+version: v4.7.1
