@@ -24,7 +24,7 @@ use File::Spec;
 use Test::More qw(no_plan);
 
 # Set up @INC at runtime with an absolute path.
-my $lib_path = File::Spec->catdir(dirname($0), "..", "lib");
+my $lib_path = File::Spec->rel2abs(File::Spec->catdir(dirname($0), "..", "lib"));
 push(@INC, $lib_path);
 
 require_ok 'Google::Ads::AdWords::Client';
@@ -38,6 +38,6 @@ sub test_require {
     local $SIG{__WARN__} = sub {
       warn @_ unless $_[0] =~ /redefine/;
     };
-    require_ok($file_name);
+    require_ok("./$file_name");
   }
 }
