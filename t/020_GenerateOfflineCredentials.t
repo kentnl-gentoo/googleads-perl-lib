@@ -51,7 +51,7 @@ my $stdout;
 open(STDOUT, ">", \$stdout);
 
 # Calling the offline credentials code
-require qw(examples/oauth/generate_offline_credentials.pl);
+require qw(./examples/oauth/generate_offline_credentials.pl);
 ok(generate_offline_credentials($client));
 
 # Checking the auth mock was correctly called
